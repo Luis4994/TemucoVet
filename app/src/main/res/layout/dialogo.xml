@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/et_nombreperro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Nombre del Perrito"/>
+    <EditText
+        android:id="@+id/et_razaperro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Raza"/>
+    <EditText
+        android:id="@+id/et_nombredueno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Dueño"/>
+    <EditText
+        android:id="@+id/et_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Telefono"/>
+    <EditText
+        android:id="@+id/et_historialclinico"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="top"
+        android:textSize="24sp"
+        android:inputType="textMultiLine"
+        android:hint="Historial Clinico"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_agregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Agregar"/>
+        <Button
+            android:id="@+id/btn_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancelar"/>
+    </LinearLayout>
+</LinearLayout>
